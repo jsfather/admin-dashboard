@@ -1,5 +1,7 @@
+const colors = require('tailwindcss/colors')
+
 export const theme = {
     colors: {
-        primary: '#3661eb', secondary: '#61b3df',
+        primary: colors.blue["600"], secondary: colors.sky["400"],
     }
 };
