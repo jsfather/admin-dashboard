@@ -3,7 +3,10 @@
 </script>
 
 <template>
-  <NuxtPage/>
+  <app-header/>
+  <div class="p-6 bg-background">
+    <NuxtPage/>
+  </div>
 </template>
 
 <style scoped>
